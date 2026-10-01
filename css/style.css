@@ -1,0 +1,118 @@
+
+* {
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unica+One&display=swap');
+
+:root {
+	--white: #ffffff;
+	--cream: #fff034cb;
+	--carrot: #f45432;
+	--rust: #b55232;
+	--ironstone: #379543;
+	--pine: #bf2;
+	--black: #000000;
+	
+}
+
+body {
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	background: var(--white);
+	color: var(--black);
+}
+
+.page {
+	max-width: 880px;
+	margin: 56px auto;
+	padding: 0 20px;
+}
+
+.card {
+	border: 1px solid var(--black);
+	border-radius: 14px;
+	background: var(--white);
+}
+
+.form-card {
+	display: flex
+	padding: 56px 44px 44px;
+	margin-bottom: 42px;
+	
+}
+
+h1 {
+	margin: 0 0 34px;
+	font-size: 44px;
+	line-height: 1.1;
+}
+
+label {
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+select {
+	width: 100%;
+	padding: 16px 18px;
+	font-size: 20px;
+	border: 1px solid var(--pine);
+	border-radius: 8px;
+	background: var(--white);
+	margin-bottom: 26px;
+}
+
+button {
+	border: 0;
+	background: var(--carrot);
+	color: var(--white);
+	padding: 14px 28px;
+	font-size: 20px;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.result-card {
+	padding: 34px 24px 30px;
+	min-height: 310px;
+}
+
+.result-card img {
+	width: 24px;
+	height: 623px;
+	display: block;
+	margin-bottom: 34px;
+}
+
+.result-card p {
+	margin: 0 0 15px;
+	font-size: 14px;
+	line-height: 1.45;
+}
+
+.hidden {
+	display: none;
+}
+
+@media (max-width: 640px) {
+	.form-card {
+		padding: 32px 22px;
+	}
+
+	h1 {
+		font-size: 13px;
+	}
+
+	label {
+		font-size: 16px;
+	}
+
+	select,
+	button,
+	.result-card p {
+		font-size: 18px;
+	}
+}

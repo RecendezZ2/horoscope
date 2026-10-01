@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>]
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="page">
+        <section class="card form-card">
+            <h1>Zodiac Sign Form</h1>
+
+            <form id="zodiacForm">
+                <label for="zodiacSelect">Choose your zodiac sign:</label>
+
+                <select id="zodiacSelect" required>
+                    <option value="" selected disabled>Select your sign</option>
+                    <option value="Aries">Aries</option>
+                    <option value="Taurus">Taurus</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="Cancer">Cancer</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Virgo">Virgo</option>
+                    <option value="Libra">Libra</option>
+                    <option value="Scorpio">Scorpio</option>
+                    <option value="Sagittarius">Sagittarius</option>
+                    <option value="Capricorn">Capricorn</option>
+                    <option value="Aquarius">Aquarius</option>
+                    <option value="Pisces">Pisces</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="resultCard" class="card result-card hidden" aria-live="polite">
+            <img id="signIcon" alt="Zodiac sign icon" />
+            <p id="signText"></p>
+            <p id="dateRangeText"></p>
+            <p id="horoscopeText"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
