@@ -149,8 +149,11 @@ zodiacForm.addEventListener("submit", function (e) {
     const horoscope = signData.dailyHoroscope;
     const luckyNumbers = signData.luckyNumbers.join(", ");
 
+    // used dom method to create an strong element
+    const label = document.createElement("strong")
+
     // Template literal saved in a variable
-    const outputMessage = `${sign}'s date range is ${dateRange}. Today's horoscope is: ${horoscope} Your lucky numbers are ${luckyNumbers}.`;
+    const outputMessage = `${sign}'s date range is ${dateRange}. Gather close, for the stars have spoken! The cosmic alignments show a massive energetic shift in your zone of creativity. The planetary directive for you today is simple: avoid petty drama, protect your peace, and do not ignore the signs. Your lucky numbers are ${luckyNumbers}.`;
 
     // Log the completed sentence in the browser console
     console.log(outputMessage);
@@ -161,8 +164,9 @@ zodiacForm.addEventListener("submit", function (e) {
 
     // Render the sentence and other details on the page
     resultText.textContent = outputMessage;
-    resultDate.textContent = `Date range: ${dateRange}`;
-    resultHoroscope.textContent = `Horoscope: ${horoscope}`;
+    resultDate.textContent = ` ${dateRange}`;
+// 
+    resultHoroscope.textContent = ` ${horoscope}`;
 
     resultSection.classList.remove("hidden");
 });

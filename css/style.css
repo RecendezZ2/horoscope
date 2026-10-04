@@ -16,23 +16,38 @@
 	
 }
 
+.date {
+	font-weight: 700;
+	border: none;
+
+}
+
+.bold {
+	font-weight: 700;
+	border: 6px solid black;
+
+}
 body {
 	margin: 0;
 	font-family: "Montserrat", sans-serif;
 	background: var(--white);
 	color: var(--black);
+	border: 12% solid white;
+	
 }
 
 .page {
 	max-width: 880px;
 	margin: 56px auto;
 	padding: 0 20px;
+	
 }
+
 
 .card {
 	border: 1px solid var(--black);
 	border-radius: 14px;
-	background: var(--white);
+	background-color: var(--pine);
 }
 
 
@@ -49,26 +64,36 @@ label {
 	font-size: 30px;
 	font-weight: 700;
 	margin-bottom: 16px;
+	background-color: var(--pine);
+
 }
 
 select {
 	width: 100%;
-	padding: 16px 18px;
-	font-size: 20px;
-	border: 12px solid var(--pine);
+	padding: auto;
+	font-size: 34px;
+	border:12px solid black;
 	border-radius: 8px;
 	background: var(--white);
 	margin-bottom: 26px;
+	 text-shadow: 0 0 40px white;
+	
 }
 
 button {
-	border: 3px solid black;
-	background: var(--pine);
+	border: 10px solid black;
+	background: white;
 	color: black;
 	margin-left: 30%;
-	font-size: 21px;
-	border-radius: 7px;
+	margin-right: 30%;
+	padding: 12px;
+	padding-right: 14rem;
+	padding-left: 14rem;
+	font-size: 34px;
+	border-radius: 19px;
 	cursor: pointer;
+	
+	 text-shadow: 10 0 40px white;
 }
 
 .result-card {
@@ -81,19 +106,24 @@ button {
 	height: 623px;
 	display: block;
 	margin-bottom: 34px;
+	border: 12px solid black;
+	background-color: var(--pine);
+
 }
 
 .result-card p {
 	margin: 0 0 15px;
 	font-size: 14px;
 	line-height: 1.45;
-	border: 10px solid var(--pine);
+	border: 12px dotted var(--pine);
+	background-color: var(--pine);
 }
 
 .hidden {
 	display: none;
 }
 #signIcon {
+	border: 8 dotted var(--pine);
     display: block;
     width: 200px;
     height: 200px;
