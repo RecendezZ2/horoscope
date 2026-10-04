@@ -6,7 +6,7 @@ const horoscopeData = {
                 sign: "Aries",
                 dateRange: "March 21 - April 19",
                 dailyHoroscope:
-                    "You will find yourself torn between two offers this weekend and if you don’t make up your mind quickly, you could end up getting the one that will do you less good. Don’t let your hesitation make it easy for a rival to steal in ahead of you",
+                    " Fresh professional ideas emerge, helping you develop exploratory plans. Arranging capital or resources for a dream venture feels manageable if you double-check paperwork and details.Venus retrograde shifts focus toward deep emotional reflection and shared bonds. Letting others take the lead for a change brings unexpected support and harmony.",
                 luckyNumbers: [3, 17, 21],
                 key: 0,
                 icon: "images/Screenshot 2026-10-01 at 1.55.43 PM.png"
