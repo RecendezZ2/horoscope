@@ -10,8 +10,8 @@
 	--cream: #fff034cb;
 	--carrot: #f45432;
 	--rust: #b55232;
-	--ironstone: #379543;
-	--pine: #bf2;
+	--ironstone:#b6f;
+	--pine:  #f3c325;
 	--black: #000000;
 	
 }
@@ -35,17 +35,13 @@ body {
 	background: var(--white);
 }
 
-.form-card {
-	display: flex
-	padding: 56px 44px 44px;
-	margin-bottom: 42px;
-	
-}
+
 
 h1 {
 	margin: 0 0 34px;
 	font-size: 44px;
 	line-height: 1.1;
+	padding-left: 25%;
 }
 
 label {
@@ -59,18 +55,18 @@ select {
 	width: 100%;
 	padding: 16px 18px;
 	font-size: 20px;
-	border: 1px solid var(--pine);
+	border: 12px solid var(--pine);
 	border-radius: 8px;
 	background: var(--white);
 	margin-bottom: 26px;
 }
 
 button {
-	border: 0;
-	background: var(--carrot);
-	color: var(--white);
-	padding: 14px 28px;
-	font-size: 20px;
+	border: 3px solid black;
+	background: var(--pine);
+	color: black;
+	margin-left: 30%;
+	font-size: 21px;
 	border-radius: 7px;
 	cursor: pointer;
 }
@@ -91,10 +87,18 @@ button {
 	margin: 0 0 15px;
 	font-size: 14px;
 	line-height: 1.45;
+	border: 10px solid var(--pine);
 }
 
 .hidden {
 	display: none;
+}
+#signIcon {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 0 auto 16px;
 }
 
 @media (max-width: 640px) {
